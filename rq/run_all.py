@@ -1,6 +1,6 @@
 #coding=utf-8
 import unittest
-from rq.lib.HTMLTestReportCN import HTMLTestRunner
+from rq.lib.HTMLTestReportCN import *
 from datetime import datetime
 from rq.config.config_logs import *
 from rq.lib.case_log import *
