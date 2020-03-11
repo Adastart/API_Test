@@ -4,7 +4,8 @@ from rq.lib.HTMLTestReportCN import *
 from datetime import datetime
 from rq.config.config_logs import *
 from rq.lib.case_log import *
-
+import sys
+sys.path.append('')
 
 logging.info("=============================测试开始==========================================")
 #suite = unittest.defaultTestLoader.discover("./") #

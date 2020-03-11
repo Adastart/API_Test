@@ -1,11 +1,16 @@
 #coding=utf-8
+
+from datetime import datetime
+import unittest
+import sys
+sys.path.append('../..')
+
 from rq_test1.lib.HTMLTestReportCN import *
 from rq_test1.config.config_logs import *
-from datetime import datetime
 
 logging.info("==================================测试开始====================================")
 
-3
+suite=unittest.defaultTestLoader.discover(test_path)
 #with open(r"/Users/aoxing/PycharmProjects/untitled3/rq_test1/report/Test_Report.html" ,'wb') as f:
 dt = datetime.now().strftime('%m-%d %H:%M:%S')
 file_prefix = '/Users/aoxing/PycharmProjects/untitled3/rq_test1/report/Report '
