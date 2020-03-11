@@ -26,6 +26,8 @@ class test_case(unittest.TestCase):
         expect_res=int(case_data.get('expect_res'))
         res=requests.post(url=url,data=data)
         response=res.json()
+
+
         self.assertEqual(expect_res,response['result'])
         test_case_logging(case_data,url,data,expect_res,response)
 
