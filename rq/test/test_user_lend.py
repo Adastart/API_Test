@@ -1,12 +1,13 @@
 #coding=utf-8
+import sys
+sys.path.append("../..")
 
 import unittest
 import requests
 import json
-from lib.read_excel import *
-import sys
-sys.path.append("../..")
+
 from config.config_logs import *
+from lib.read_excel import *
 
 
 class TestUserlend(unittest.TestCase):

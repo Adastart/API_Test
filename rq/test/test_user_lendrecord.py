@@ -1,11 +1,13 @@
 #coding=utf-8
-import unittest
-from lib.read_excel import *
-import requests
 import sys
 sys.path.append("../..")
+import unittest
+import requests
+
 from config.config_logs import *
 from lib.case_log import *
+from lib.read_excel import *
+
 
 class Test_User_Lendrecord(unittest.TestCase):
     @classmethod
