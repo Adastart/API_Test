@@ -3,7 +3,7 @@ import sys
 sys.path.append('..')
 import unittest
 from datetime import datetime
-from HTMLTestReportCN import *
+from HTMLTestReportCN import HTMLTestRunner
 from config_logs import *
 from case_log import *
 from send_email import *
