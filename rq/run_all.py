@@ -1,10 +1,7 @@
 #coding=utf-8
 import unittest
 from datetime import datetime
-# from rq.lib.HTMLTestReportCN import *
-# from rq.config.config_logs import *
-# from rq.lib.case_log import *
-
+from lib.send_email import send_email
 from lib.HTMLTestReportCN import *
 from config.config_logs import *
 from lib.case_log import *
@@ -19,4 +16,6 @@ suite = unittest.defaultTestLoader.discover(test_path) #
 
 with open(report_file,'wb') as f:
     HTMLTestRunner(stream=f,title="api test",description="测试描述",tester="星星").run(suite)
+
+send_email(report_file)
 logging.info("==============================测试结束=========================================")

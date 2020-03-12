@@ -1,15 +1,27 @@
-#coding=utf-8
-import smtplib  #建立smtp连接
-from email.mime.text import MIMEText #邮件格式
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart # 混合MIME格式，⽀持上传附件
+from email.header import Header # ⽤于使⽤中⽂邮件主题
+from config.config_logs import *
+def send_email(report_file):
+    sender='15701374212@163.com'
+    receivers='1064420684@qq.com'
+    msg = MIMEMultipart() # 混合MIME格式
+    msg.attach(MIMEText(open(report_file, encoding='utf-8').read(), 'html', 'utf-8')) # 添加html格式邮件正⽂（会丢失css格式）
+    msg['From'] =sender  # 发件⼈
+    msg['To'] = receivers # 收件⼈
+    msg['Subject'] = Header('接⼝测试报告', 'utf-8') # 中⽂邮件主题，指定utf-8编码
+    att1 = MIMEText(open(report_file, 'rb').read(), 'base64', 'utf-8') # ⼆进制格式打开
+    att1["Content-Type"] = 'application/octet-stream'
+    att1["Content-Disposition"] = 'attachment; filename="report.html"' # filename为邮件中附件显示的名字
+    msg.attach(att1)
+    try:
+        smtp = smtplib.SMTP_SSL('smtp.163.com') # smtp服务器地址 使⽤SSL模式
+        smtp.login(sender, '1351668Ao') # ⽤户名和密码(密码是客户端授权码)
+        smtp.sendmail(sender, receivers,msg.as_string())
 
-# 1. 编写邮件内容（Email邮件需要专⻔的MIME格式）
-msg = MIMEText('this is a test email', 'plain', 'utf-8') # plain指普通⽂本格式邮件内容
-# 2. 组装Email头（发件⼈，收件⼈，主题）
-msg['From'] = '15701374212@163.com' # 发件⼈
-msg['To'] = '1064420684@qq.com' # 收件⼈
-msg['Subject'] = 'Api Test Report' # 邮件主题
-# 3. 连接smtp服务器并发送邮件
-smtp = smtplib.SMTP_SSL('smtp.163.com') # smtp服务器地址 使⽤SSL模式
-smtp.login('15701374212@163.com', 'Ao1351668') # ⽤户名和密码
-smtp.sendmail("15701374212@163.com", "1064420684@qq.com", msg.as_string())
-smtp.quit()
+        logging.info("邮件发送完成！")
+    except Exception as e:
+        logging.error(str(e))
+    finally:
+        smtp.quit()
