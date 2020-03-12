@@ -1,13 +1,12 @@
 #coding=utf-8
 import sys
-sys.path.append('../..')
+sys.path.append('..')
 import unittest
 from datetime import datetime
-from lib.send_email import *
-from lib.HTMLTestReportCN import *
-from config.config_logs import *
-from lib.case_log import *
-
+from HTMLTestReportCN import *
+from config_logs import *
+from case_log import *
+from send_email import *
 
 logging.info("=============================测试开始==========================================")
 #suite = unittest.defaultTestLoader.discover("./") #

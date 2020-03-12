@@ -5,9 +5,9 @@ sys.path.append("../..")
 import unittest
 import requests
 import json
-from config.config_logs import *
-from lib.read_excel import *
-from lib.case_log import *
+from config_logs import *
+from read_excel import *
+from case_log import *
 import logging
 
 class TestUserlend(unittest.TestCase):

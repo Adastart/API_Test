@@ -4,9 +4,9 @@ sys.path.append("../..")
 import unittest
 import requests
 
-from config.config_logs import *
-from lib.case_log import *
-from lib.read_excel import *
+from config_logs import *
+from case_log import *
+from read_excel import *
 
 
 class Test_User_Lendrecord(unittest.TestCase):

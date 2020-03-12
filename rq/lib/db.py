@@ -2,7 +2,7 @@
 import pymysql
 import sys
 sys.path.append('..')
-from config.config_logs import *
+from config_logs import *
 
 
 

@@ -4,10 +4,10 @@ sys.path.append('../..')
 import requests
 import unittest
 import json
-from lib.read_excel import *
-from lib.case_log import *
+from read_excel import *
+from case_log import *
 
-from config.config_logs import *
+from config_logs import *
 class TestUserReng(unittest.TestCase):
 
     @classmethod
