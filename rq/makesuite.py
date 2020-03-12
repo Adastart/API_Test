@@ -1,6 +1,6 @@
 #coding=utf-8
 
-from rq.test.test_user_reng import TestUserReng
+from test.user.test_user_reng import TestUserReng
 from rq.lib.HTMLTestReportCN import *
 
 # #使⽤TestLoader（⽤例加载器）⽣成测试集

@@ -5,10 +5,10 @@ sys.path.append("../..")
 import unittest
 import requests
 import json
-
 from config.config_logs import *
 from lib.read_excel import *
-
+from lib.case_log import *
+import logging
 
 class TestUserlend(unittest.TestCase):
     @classmethod
@@ -22,7 +22,7 @@ class TestUserlend(unittest.TestCase):
     def test_user_lend_nomal(self):
         case_data=get_excel_to(self.data_list,'test_user_lend_normal')
         if not case_data:
-            print('用例数据不存在')
+            logging.info('用例数据不存在')
         url=case_data.get('url')
         data=case_data.get('data')
         expect_res=case_data.get('expect_res')
@@ -36,7 +36,7 @@ class TestUserlend(unittest.TestCase):
     def test_user_lend_nologin(self):
         case_data=get_excel_to(self.data_list,'test_user_lend_nologin')
         if not case_data:
-            print('用例数据不存在')
+            logging.info('用例数据不存在')
         url=case_data.get('url')
         data=case_data.get('data')
         expect=case_data.get('expect')

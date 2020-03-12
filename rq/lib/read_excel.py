@@ -18,16 +18,6 @@ def get_excel_to(file_list,case_name):
             return case_data
 
 
-if __name__=='__main__':
-    file_list=excel_to_find("test_user_data_1.xlsx","Test_User_Lend")
-    case_data=get_excel_to(file_list,'test_user_lend_normal')
-    print(case_data)
-    url=case_data.get('url')
-    data=case_data.get('data')
-    expect_res=case_data.get('expect_res')
-    print(url)
-    print(data)
-    print(expect_res)
 
 
 
