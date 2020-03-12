@@ -1,5 +1,5 @@
 #coding=utf-8
-from rq.config.config_logs import *
+from config.config_logs import *
 
 def case_logging(case_name,url,data,expect_res,response_text):
     logging.info('用例标题：{}'.format(case_name))

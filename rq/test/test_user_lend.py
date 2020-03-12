@@ -3,10 +3,10 @@
 import unittest
 import requests
 import json
-from rq.lib.read_excel import *
+from lib.read_excel import *
 import sys
 sys.path.append("../..")
-from rq.config.config_logs import *
+from config.config_logs import *
 
 
 class TestUserlend(unittest.TestCase):

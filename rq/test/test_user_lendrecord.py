@@ -1,11 +1,11 @@
 #coding=utf-8
 import unittest
-from rq.lib.read_excel import *
+from lib.read_excel import *
 import requests
 import sys
 sys.path.append("../..")
-from rq.config.config_logs import *
-from rq.lib.case_log import *
+from config.config_logs import *
+from lib.case_log import *
 
 class Test_User_Lendrecord(unittest.TestCase):
     @classmethod

@@ -1,9 +1,13 @@
 #coding=utf-8
 import unittest
-from rq.lib.HTMLTestReportCN import *
 from datetime import datetime
-from rq.config.config_logs import *
-from rq.lib.case_log import *
+# from rq.lib.HTMLTestReportCN import *
+# from rq.config.config_logs import *
+# from rq.lib.case_log import *
+
+from lib.HTMLTestReportCN import *
+from config.config_logs import *
+from lib.case_log import *
 import sys
 sys.path.append('../..')
 

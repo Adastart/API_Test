@@ -2,11 +2,11 @@
 import requests
 import unittest
 import json
-from rq.lib.read_excel import *
-from rq.lib.case_log import *
+from lib.read_excel import *
+from lib.case_log import *
 import sys
 sys.path.append('../..')
-from rq.config.config_logs import *
+from config.config_logs import *
 class TestUserReng(unittest.TestCase):
 
     @classmethod
