@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a2b480e-ed35-48ad-b9d8-59c2b94cf766" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/untitled3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rq/lib/case_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/rq/lib/case_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rq/lib/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/rq/lib/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rq/lib/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/rq/lib/send_email.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rq/test/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/rq/test/run_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rq/test/user/test_user_lend.py" beforeDir="false" afterPath="$PROJECT_DIR$/rq/test/user/test_user_lend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rq/test/user/test_user_lendrecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/rq/test/user/test_user_lendrecord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rq/test/user/test_user_reng.py" beforeDir="false" afterPath="$PROJECT_DIR$/rq/test/user/test_user_reng.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,24 +79,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rq/config/config_logs.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rq/test/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#14#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="269">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rq/test/run_all.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rq/log/log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
+            <state relative-caret-position="-1466" />
           </provider>
         </entry>
       </file>
@@ -513,7 +500,7 @@
       <workItem from="1583845944134" duration="9739000" />
       <workItem from="1584010443827" duration="667000" />
       <workItem from="1584011449899" duration="5110000" />
-      <workItem from="1584019673479" duration="358000" />
+      <workItem from="1584019673479" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1583938842290</created>
@@ -599,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584019255360</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="提交1">
+      <created>1584020037279</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584020037279</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -635,7 +629,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143951000" />
+    <option name="totallyTimeSpent" value="144010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -650,12 +644,12 @@
     <frame x="0" y="23" width="1437" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23754513" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23754513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32898173" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.866426" visible="true" weight="0.32898173" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.866426" visible="true" weight="0.32898173" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49241877" weight="0.5221932" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -858,7 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rq/log/log.txt" />
     <entry file="file://$PROJECT_DIR$/rq/test/log.txt" />
     <entry file="file://$PROJECT_DIR$/rq/report/2020-03-12 21:15:18 Report.html" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/logging/__init__.py">
@@ -961,10 +954,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rq/log/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1466" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rq/test/run_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="269">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
