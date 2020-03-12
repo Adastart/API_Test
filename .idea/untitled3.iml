@@ -6,13 +6,6 @@
       <sourceFolder url="file://$MODULE_DIR$/rq_test1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/seleium" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rq" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/rq/config" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/rq/data" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/rq/lib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/rq/log" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/rq/mock" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/rq/report" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/rq/test" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
