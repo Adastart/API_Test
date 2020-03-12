@@ -165,28 +165,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="untitled3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled3" type="462c0819:PsiDirectoryNode" />
-              <item name="rq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled3" type="462c0819:PsiDirectoryNode" />
-              <item name="rq" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,18 +176,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rq" />
+      <recent name="$PROJECT_DIR$/rq/test" />
+      <recent name="$PROJECT_DIR$/rq/test/user" />
+      <recent name="$PROJECT_DIR$/rq_test1" />
+      <recent name="$PROJECT_DIR$/rq/lib" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/rq" />
       <recent name="$PROJECT_DIR$/rq_test3" />
       <recent name="$PROJECT_DIR$/rq_test2" />
       <recent name="$PROJECT_DIR$/rq_test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/rq/test" />
-      <recent name="$PROJECT_DIR$/rq/test/user" />
-      <recent name="$PROJECT_DIR$/rq_test1" />
-      <recent name="$PROJECT_DIR$/rq/lib" />
-      <recent name="$PROJECT_DIR$/rq/log" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,7 +216,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rq/test/run_all.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rq/run_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -362,7 +341,7 @@
       <workItem from="1583845944134" duration="9739000" />
       <workItem from="1584010443827" duration="667000" />
       <workItem from="1584011449899" duration="5110000" />
-      <workItem from="1584019673479" duration="718000" />
+      <workItem from="1584019673479" duration="993000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1583938842290</created>
@@ -476,7 +455,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584020299475</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="提交1">
+      <created>1584020418099</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584020418099</updated>
+    </task>
+    <task id="LOCAL-00018" summary="提交1">
+      <created>1584020434881</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1584020434881</updated>
+    </task>
+    <task id="LOCAL-00019" summary="提交1">
+      <created>1584020596481</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1584020596481</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -512,7 +512,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144311000" />
+    <option name="totallyTimeSpent" value="144586000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,7 +531,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32898173" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.866426" visible="true" weight="0.32898173" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.866426" weight="0.32898173" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49241877" weight="0.5221932" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -796,7 +796,7 @@
         <state relative-caret-position="-1466" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rq/test/run_all.py">
+    <entry file="file://$PROJECT_DIR$/rq/run_all.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />

@@ -4,7 +4,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart # 混合MIME格式，⽀持上传附件
 from email.header import Header # ⽤于使⽤中⽂邮件主题
-from config_logs import *
+from config.config_logs import *
 
 def send_email(report_file):
 
