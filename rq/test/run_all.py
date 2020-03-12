@@ -3,10 +3,10 @@ import sys
 sys.path.append('..')
 import unittest
 from datetime import datetime
-from HTMLTestReportCN import *
 from config_logs import *
 from case_log import *
 from send_email import *
+from HTMLTestReportCN import *
 
 logging.info("=============================测试开始==========================================")
 #suite = unittest.defaultTestLoader.discover("./") #
